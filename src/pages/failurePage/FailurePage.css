@@ -1,0 +1,71 @@
+.winPage h1 {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 68px;
+  align-items: center;
+  color: #151515;
+  margin-top: 45px;
+  margin-left: 160px;
+}
+
+.options {
+  display: flex;
+  margin-left: 150px;
+}
+
+.option_p {
+  margin-top: 56px;
+}
+
+.option_p p {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #151515;
+
+  margin-bottom: 66px;
+  margin-right: 200px;
+}
+
+.option_btn {
+  margin-top: 86px;
+}
+
+.option_btn button {
+  width: 260px;
+  height: 50px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+
+  background: #2d8456;
+  border-radius: 8px;
+
+  margin-bottom: 60px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #ffffff;
+}
+
+.option_btn button:hover {
+  cursor: pointer;
+}
