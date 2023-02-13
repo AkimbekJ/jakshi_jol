@@ -4,7 +4,7 @@ import instagram_logo from "../../assets/Instagram - Original.svg"
 
 const Header = () => {
   return (
-    <div className="Header">
+    <div className="header">
       <div className="logo">
         <img src={logo} alt="" />
         <h3>Жакшы жол</h3>
@@ -15,7 +15,10 @@ const Header = () => {
             <li>Главная</li>
             <li>Книга</li>
             <li>Тест</li>
-            <li>Контакты</li>
+            <div className="contacts">
+              <li className="contact">Контакты</li>
+              <li className="number">0705267747</li>
+            </div>
           </ul>
         </nav>
       </div>

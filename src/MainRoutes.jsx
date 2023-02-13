@@ -6,7 +6,7 @@ const MainRoutes = () => {
     <BrowserRouter>
       <Switch>
         <Route exact path="/">
-          <Header/>
+          <Header />
         </Route>
       </Switch>
     </BrowserRouter>
