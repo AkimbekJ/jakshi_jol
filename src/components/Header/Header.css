@@ -1,0 +1,73 @@
+.Header {
+  display: flex;
+  width: 1440px;
+  height: 150px;
+  align-items: center;
+  background-color: #2d8456;
+  padding-left: 105px;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.logo h3 {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 55px;
+  color: white;
+  margin-left: 14px;
+}
+
+.nav nav ul {
+  list-style: none;
+  display: flex;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  color: white;
+  gap: 88px;
+  margin-right: 90px;
+  margin-left: 223px;
+}
+
+.nav nav ul li {
+  color: #fff;
+  text-decoration: none;
+
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+}
+
+.nav nav ul li:hover,li:focus {
+  background-size: 100% 2px;
+  cursor: pointer;
+}
+
+.instagram {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+
+  width: 44px;
+  height: 44px;
+  border-radius: 100px;
+}
+
+.instagram:hover {
+  cursor: pointer;
+}
