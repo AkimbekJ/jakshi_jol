@@ -2,8 +2,6 @@ import "./Header.css";
 import logo from "../../assets/logoaj.svg";
 import instagram_logo from "../../assets/Instagram - Original.svg"
 
-const { Link } = require("react-router-dom");
-
 const Header = () => {
   return (
     <div className="Header">
