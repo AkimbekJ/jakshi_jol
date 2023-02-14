@@ -17,7 +17,7 @@ const Header = () => {
             <li>Тест</li>
             <div className="contacts">
               <li className="contact">Контакты</li>
-              <li className="number">0705267747</li>
+              <li className="number">0705265747</li>
             </div>
           </ul>
         </nav>

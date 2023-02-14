@@ -1,4 +1,4 @@
-.winPage h1 {
+.failurePage h1 {
   font-family: "Nunito Sans";
   font-style: normal;
   font-weight: 400;
@@ -64,6 +64,7 @@
   line-height: 29px;
 
   color: #ffffff;
+  border: none;
 }
 
 .option_btn button:hover {
