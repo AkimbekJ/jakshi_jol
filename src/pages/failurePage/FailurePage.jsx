@@ -2,7 +2,7 @@ import Header from "../../components/Header/Header"
 import "./FailurePage.css"
 const FailurePage = () => {
   return (
-    <div className="winPage">
+    <div className="failurePage">
       <Header />
       <h1>К сожалению, у вас менее 18 правильных ответов.</h1>
       <div className="options">
