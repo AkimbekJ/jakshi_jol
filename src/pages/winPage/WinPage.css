@@ -1,3 +1,8 @@
+.winPage {
+  width: 1440px;
+  margin: 0 auto;
+}
+
 .h1 {
   font-family: "Nunito Sans";
   font-style: normal;
@@ -21,10 +26,9 @@
   font-size: 40px;
   line-height: 55px;
   margin-left: 100px;
-
   color: #000000;
-  margin-right: 50px;
   margin-bottom: 0px;
+  align-items: center;
 }
 
 .discount_1 h4 {
