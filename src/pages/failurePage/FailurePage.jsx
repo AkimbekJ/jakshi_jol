@@ -15,6 +15,7 @@ const FailurePage = () => {
           <button>пройти тест заново</button>
           <button>позвонить</button>
           <button>купить</button>
+          
         </div> 
       </div>
     </div>
