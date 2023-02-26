@@ -5,8 +5,11 @@ import "./BlockArticle.css"
 const BlockArticle = (props) => {
 
     return (
-        <div className="blcokArticle">
+        <div>
+ <div className="blcokArticle">
             <h2 className="h2Article">Последние изменения в законодательстве ПДД КР</h2>
+            <div className="blockGreenTwo"> </div>
+
                 {
                     props.articls.map(articl => {
                         return(
@@ -14,9 +17,6 @@ const BlockArticle = (props) => {
                             )
                     })
                 }
-            <div className="blockGreenTwo">
-
-            </div>
             <div className="blockArticleTwo">
             <h3>Пройдтите тест по ПДД и получите 10% скидку на книгу</h3>
             <p>Внимательно читайте каждый вопрос и все варианты ответов. Не торопитесь!</p>
@@ -24,6 +24,8 @@ const BlockArticle = (props) => {
             </div>
 
         </div>
+        </div>
+       
     )
 }
 export default BlockArticle

@@ -2,6 +2,7 @@
     width: 1440px;
     height: 620px;
     display: flex;
+    margin-top: 100px;
 
 
 }
@@ -24,7 +25,7 @@
 .bookImage {
     width: 605px;
     height: 620px;
-    left: 835px;
+    margin-left: 835px;
     position: absolute;
     display: block;
 }
@@ -76,6 +77,7 @@ p {
     font-size: 30px;
     line-height: 36px;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .blockGreen {
