@@ -68,6 +68,7 @@ color: #151515;
     background: #FFFFFF;
     position: relative;
     text-align: start;
+    padding-bottom: 100pxg;
 }
 .modal2 {
     display: inline-block;
