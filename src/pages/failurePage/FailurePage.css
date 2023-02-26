@@ -1,3 +1,8 @@
+.failurePage {
+  width: 1440px;
+  margin: 0 auto;
+}
+
 .failurePage h1 {
   font-family: "Nunito Sans";
   font-style: normal;
@@ -7,12 +12,12 @@
   align-items: center;
   color: #151515;
   margin-top: 45px;
-  margin-left: 160px;
+  text-align: center;
 }
 
 .options {
   display: flex;
-  margin-left: 150px;
+  justify-content: center;
 }
 
 .option_p {

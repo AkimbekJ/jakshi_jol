@@ -1,6 +1,7 @@
 import "./Header.css";
+import { Link } from "react-router-dom";
 import logo from "../../assets/logoaj.svg";
-import instagram_logo from "../../assets/Instagram - Original.svg"
+import instagram_logo from "../../assets/Instagram - Original.svg";
 
 const Header = () => {
   return (
@@ -12,9 +13,13 @@ const Header = () => {
       <div className="nav">
         <nav>
           <ul>
-            <li>Главная</li>
+            <li>
+              <Link to="/">Главная</Link>
+            </li>
             <li>Книга</li>
-            <li>Тест</li>
+            <li>
+              <Link to="/win">Тест</Link>
+            </li>
             <div className="contacts">
               <li className="contact">Контакты</li>
               <li className="number">0705265747</li>
