@@ -1,0 +1,96 @@
+.articleComp {
+
+    /* white-space: normal; */
+    /* overflow: hidden; */
+    /* padding: 5px; */
+    /* text-overflow: ellipsis; */
+    width: 1185px;
+    height: 123px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+
+    color: #151515;
+}
+
+.btnXGlob {
+    position: absolute;
+    z-index: 2;
+    height: 24px;
+    width: 24px;
+    left: 8.333251953125px;
+    top: 8.3330078125px;
+    padding: 10px;
+    margin-left: 1138px;
+    margin-top: 59px;
+    background-image: url(../../assets/close.png);
+    border: 0;
+
+
+}
+
+li {
+    list-style-type: none;
+}
+
+.btnGlobal {
+    width: 84px;
+    height: 41px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    background-color: white;
+    border: 0;
+    color: #2D8456;
+    margin-left: ;
+
+}
+.fullArticle {
+width: 1042px;
+margin-left: 83px;
+margin-top: 39px;
+padding-bottom: 20px;
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 41px;
+
+color: #151515; 
+   
+}
+.popup2 {
+    width: 1238px;
+    background: #FFFFFF;
+    position: relative;
+    text-align: start;
+}
+.modal2 {
+    display: inline-block;
+    justify-content: left;
+}
+.bg2 {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    background: rgba(17, 17, 17, 0.7);
+}
+.bg2 h2 {
+    margin-left: 80px;
+    margin-top: 87px;
+}
+.parentBlock{
+    width: 1238px;
+    height: auto;
+}
