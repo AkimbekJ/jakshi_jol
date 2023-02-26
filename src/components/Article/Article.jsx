@@ -26,7 +26,7 @@ export const Article = (props) => {
       <p className="articleComp">{kitcut(
         props.articls.article, 200
         )}
-   <button className="btnGlobal" onClick={() => setIsOpen(true)}>Далее</button>
+   <button className="btnGlobal" onClick={() => setIsOpen(true)}>дпшеgалее</button>
         </p>
 
     </li>
