@@ -9,9 +9,9 @@ const BlockBook = () => {
     return (
         <div className="blockBook">
             <div className="bookArticle">
-                <h2 className='h2Book'>правила дорожного движения кыргызской республики</h2>
-                <p>Я во время преподавания ПДД в автошколе, обнаружил ошибки и не полную информацию в ПДД Кыргызстана от 5.02.2020 года. Отталкиваясь от этих ошибок, составил свою методичку по.</p>
-                <button className='button' onClick={() => setIsOpen(true)} >Купить</button>
+                <h1 className='h1Book'>правила дорожного движения кыргызской республики</h1>
+                <p className='pBook'>Я во время преподавания ПДД в автошколе, обнаружил ошибки и не полную информацию в ПДД Кыргызстана от 5.02.2020 года. Отталкиваясь от этих ошибок, составил свою методичку по.</p>
+                <button className='buttonBook' onClick={() => setIsOpen(true)} >купить</button>
                 <Dialog open={isOpen} onClose={() => setIsOpen(false)}>
                     <div className='bg'>
                         <Dialog.Panel className="popup">

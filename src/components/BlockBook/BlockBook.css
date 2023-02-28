@@ -30,25 +30,27 @@
     display: block;
 }
 
-.h2Book {
+.h1Book {
     width: 711px;
     height: 108px;
-
-    font-family: 'Noto Sans';
+    font-family: 'Noto Sans', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 40px;
     line-height: 54px;
     text-transform: uppercase;
+    margin-left: 100px;
 
     color: #151515;
+
+
 }
 
-p {
+.pBook {
     width: 711px;
     height: 205px;
-
-    font-family: 'Nunito Sans';
+    margin-left: 100px;
+    font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 30px;
@@ -57,7 +59,9 @@ p {
     color: #151515;
 }
 
-.button {
+.buttonBook {
+    font-family: 'Inter', sans-serif ;
+    font-style: normal;
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -70,14 +74,11 @@ p {
     background: #2D8456;
     border: 1px solid #FFFFFF;
     border-radius: 8px;
-    font-weight: 100px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
     font-size: 30px;
     line-height: 36px;
     color: #FFFFFF;
     cursor: pointer;
+    margin-left: 100px;
 }
 
 .blockGreen {
@@ -132,7 +133,7 @@ p {
 .modal {
     display: flex;
     justify-content: left;
-    position: absolute;    
+    position: absolute;
 }
 
 .h2Info {
@@ -141,7 +142,7 @@ p {
     width: 614px;
     height: 68px;
     margin-left: 100px;
-    font-family: 'Nunito Sans';
+    font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
@@ -156,7 +157,7 @@ p {
     z-index: 2;
     width: 1072px;
     height: 41px;
-    font-family: 'Nunito Sans';
+    font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 30px;
@@ -178,14 +179,16 @@ p {
 
 
 }
-.image{
-position: relative;
-width: 909;
-height: 655px;
-margin-left: 270px;
+
+.image {
+    position: relative;
+    width: 909;
+    height: 655px;
+    margin-left: 270px;
 }
+
 .modalImage {
-    position: absolute  ;
+    position: absolute;
     filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.25));
     width: 909px;
     height: 655px;
@@ -193,7 +196,8 @@ margin-left: 270px;
     background-size: cover;
     margin-left: 530px;
 }
-.price{
+
+.price {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -205,13 +209,13 @@ margin-left: 270px;
     background: #2D8456;
     width: 330px;
     height: 61px;
-    font-family: 'Nunito Sans';
+    font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 30px;
     line-height: 41px;
     text-align: center;
     color: #FFFFFF;
-    
-    
+
+
 }

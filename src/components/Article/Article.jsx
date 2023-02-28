@@ -18,13 +18,14 @@ export const Article = (props) => {
     }
     return text + ":" ;
   }
+  console.log(props)
 
   return (
     <>
     <li>
-      <h2>{props.articls.number}</h2>
+      <h2 className="articlsNumber">{props.news.number_of_news}</h2>
       <p className="articleComp">{kitcut(
-        props.articls.article, 200
+        props.news.text, 200
         )}
    <button className="btnGlobal" onClick={() => setIsOpen(true)}>далее</button>
         </p>
@@ -37,8 +38,8 @@ export const Article = (props) => {
    <Dialog.Panel className="popup2">
     <div className="modal2">
    <button className="btnXGlob" onClick={() => setIsOpen(false)} ></button>
-      <h2>{props.articls.number}</h2>
-    <p className="fullArticle">{props.articls.article}</p>
+      <h2 className="articlsNumberH2">{props.news.number_of_news}</h2>
+    <p className="fullArticle">{props.news.text}</p>
     </div>
    </Dialog.Panel>
     </div>

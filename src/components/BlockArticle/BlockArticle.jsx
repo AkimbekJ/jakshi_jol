@@ -11,9 +11,9 @@ const BlockArticle = (props) => {
             <div className="blockGreenTwo"> </div>
 
                 {
-                    props.articls.map(articl => {
+                    props.articls.map(news => {
                         return(
-                            <Article key={articl.id} articls={articl} />
+                            <Article key={news.id} news={news} />
                             )
                     })
                 }

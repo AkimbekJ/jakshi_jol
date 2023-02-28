@@ -1,15 +1,18 @@
 .h2Article {
     width: 1234px;
     height: 68px;
-
-    font-family: 'Nunito Sans';
+    
+    font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 50px;
     line-height: 68px;
     text-align: center;
-    margin-top: 80px;
+    
     color: #151515;
+    
+
+
 }
 
 .blcokArticle {
@@ -36,7 +39,7 @@
     width: 1234px;
     height: 123px;
 
-    font-family: 'Nunito Sans';
+    font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 30px;
@@ -64,7 +67,7 @@
     width: 1124px;
     height: 55px;
 
-    font-family: 'Nunito Sans';
+    font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 40px;
@@ -75,15 +78,16 @@
 }
 
 .blockArticleTwo p {
-    width: 767px;
+    width: 777px;
     height: 27px;
     margin-top: -25px;
-    font-family: 'Nunito Sans';
+    font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 27px;
     color: #151515;
+    margin-bottom: -30px;
 }
 
 
@@ -112,7 +116,7 @@
     border: 1px solid #FFFFFF;
     border-radius: 8px;
     font-weight: 100px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
