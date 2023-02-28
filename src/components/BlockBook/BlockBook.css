@@ -27,6 +27,7 @@
     height: 620px;
     margin-left: 835px;
     position: absolute;
+
     display: block;
 }
 
@@ -55,7 +56,6 @@
     font-weight: 600;
     font-size: 30px;
     line-height: 41px;
-
     color: #151515;
 }
 
