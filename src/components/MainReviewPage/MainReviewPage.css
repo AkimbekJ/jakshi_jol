@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.firstPage {
+  display: flex;
+  gap: 20px;
+  width: 1340px;
+}
+
+.lang {
+  width: 99px;
+  height: 35px;
+  margin-top: 23px;
+  border: solid 2px #2d8456;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 12px;
+}
+
+.lang ul li a {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+}
+
+.lang ul li a:hover {
+  width: 35px;
+  padding: 5px;
+  border-radius: 30px;
+  background: #2d8456;
+  color: #ffffff;
+}
+
+.fullName {
+  width: 720px;
+  margin-top: 36px;
+}
+
+.fullName h1 {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  margin-bottom: 15px;
+}
+
+.fullName p {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  margin: 0;
+}
+
+.biographyList {
+  width: 720px;
+  margin-top: 40px;
+}
+
+.biographySymbol {
+  display: flex;
+  width: 570px;
+  gap: 8px;
+  /* margin: 10px; */
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #212121;
+}
+
+.reviewPage {
+  width: 1440px;
+  position: relative;
+}
+
+.review {
+  width: 1440px;
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 68px;
+  color: #151515;
+}
+
+.blurBackground {
+  position: absolute;
+  z-index: -1;
+  width: 600px;
+  height: 556px;
+  top: 80px;
+  right: 20px;
+  background: #2d8456;
+  filter: blur(200px);
+}
+
+.card {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  /* overflow: hidden; */
+  scroll-behavior: smooth;
+  gap: 32px;
+  border-radius: 20px;
+  width: 1340px;
+  margin: 0 auto;
+  /* border: solid 10px #308f5c; */
+}
+
+.reviewCard img {
+  width: 350px;
+  height: 410px;
+  border-radius: 25px;
+  border: solid 10px #ababab;
+  /* background-size: cover; */
+}
