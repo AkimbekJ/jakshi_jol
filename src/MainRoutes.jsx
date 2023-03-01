@@ -18,6 +18,7 @@ const MainRoutes = () => {
         <Route exact path="/win">
           <WinPage />
         </Route>
+        
       </Switch>
     </BrowserRouter>
   );
