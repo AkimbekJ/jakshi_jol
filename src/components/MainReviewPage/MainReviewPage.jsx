@@ -77,7 +77,6 @@ const MainReviewPage = () => {
           </div>
         </div>
       </div>
-      <BookPage/>
     </div>
   
   );
