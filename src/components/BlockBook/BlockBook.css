@@ -2,7 +2,8 @@
     width: 1440px;
     height: 620px;
     display: flex;
-    margin-top: 100px;
+    background-color: #FFFFFF;
+    margin-top: 710px;
 
 
 }
@@ -126,6 +127,7 @@
     margin-top: 27px;
     background-image: url(../../assets/close.png);
     border: 0;
+    cursor: pointer;
 
 
 }

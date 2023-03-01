@@ -9,6 +9,7 @@ import review2 from "../../assets/review2.png";
 import review3 from "../../assets/review3.png";
 import review4 from "../../assets/review4.png";
 import review5 from "../../assets/review5.png";
+import BookPage from "../../pages/bookPage/BookPage";
 const MainReviewPage = () => {
   return (
     <div className="mainPage">
@@ -76,7 +77,9 @@ const MainReviewPage = () => {
           </div>
         </div>
       </div>
+      <BookPage/>
     </div>
+  
   );
 };
 
