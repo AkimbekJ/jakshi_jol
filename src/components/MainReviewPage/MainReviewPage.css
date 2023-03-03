@@ -14,16 +14,7 @@ body {
   width: 1340px;
 }
 
-.lang {
-  width: 99px;
-  height: 35px;
-  margin-top: 23px;
-  border: solid 2px #2d8456;
-  border-radius: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 
 ul {
   list-style-type: none;

@@ -4,7 +4,7 @@ import BlockArticle from "../../components/BlockArticle/BlockArticle"
 import BlockBook from "../../components/BlockBook/BlockBook"
 import './Bookpage.css'
 
-const BookPage = () => {
+const BookPage = ({myRef}) => {
     const [news, setNews] = useState([])
     const getArticls = async () => {
         const { data } = await axios("https://jakshyjol.herokuapp.com/news/")
@@ -18,7 +18,7 @@ const BookPage = () => {
         <div >
             <div className="bookPageCss">
 
-                <BlockBook />
+                <BlockBook   myRef={myRef} />
                 <BlockArticle articls={news} />
             </div>
 

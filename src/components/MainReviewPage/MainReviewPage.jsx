@@ -9,7 +9,6 @@ import review2 from "../../assets/review2.png";
 import review3 from "../../assets/review3.png";
 import review4 from "../../assets/review4.png";
 import review5 from "../../assets/review5.png";
-import BookPage from "../../pages/bookPage/BookPage";
 const MainReviewPage = () => {
   return (
     <div className="mainPage">
@@ -17,16 +16,6 @@ const MainReviewPage = () => {
         <div className="firstPage">
           <img src={banner} alt=""/>
           <div className="biography">
-            <div className="lang">
-              <ul>
-                <li>
-                  <a href="#">KGZ</a>
-                </li>
-                <li>
-                  <a href="#">RUS</a>
-                </li>
-              </ul>
-            </div>
             <div className="fullName">
               <h1>ОМУРБЕКОВ РУСЛАН ЖАКШЫЛЫКОВИЧ</h1>
               <p>инструктор по вождению</p>
@@ -77,7 +66,6 @@ const MainReviewPage = () => {
           </div>
         </div>
       </div>
-      <BookPage/>
     </div>
   
   );

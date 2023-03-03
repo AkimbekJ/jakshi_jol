@@ -1,4 +1,3 @@
-import axios from "axios"
 import { Link } from "react-router-dom"
 import { Article } from "../Article/Article"
 import "./BlockArticle.css"
