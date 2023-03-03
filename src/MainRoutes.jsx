@@ -19,9 +19,6 @@ const MainRoutes = () => {
         <Route exact path="/win">
           <WinPage />
         </Route>
-        <Route exact path="/ngee">
-        <BookPage/>
-        </Route>
       </Switch>
     </BrowserRouter>
   );
