@@ -19,9 +19,7 @@ const MainRoutes = () => {
         <Switch>
           <Route exact path="/">
 
-            <header onClick={handleScrollClick}>
-              <Header />
-            </header>
+              <Header props={handleScrollClick}/>
             <MainReviewPage />
             <BookPage myRef={myRef} />
             <Footer />
