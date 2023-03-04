@@ -19,12 +19,6 @@ const Timer = ({ minutes = 0, seconds = 0 }) => {
     }
   };
 
-  // const reset = () => {
-  //   setTime([parseInt(minutes), parseInt(seconds)]);
-  //   setPaused(false);
-  //   setOver(false);
-  // };
-
     useEffect(() => {
     const timerID = setInterval(() => tick(), 1000);
     return () => clearInterval(timerID);
@@ -37,10 +31,6 @@ const Timer = ({ minutes = 0, seconds = 0 }) => {
         .toString()
         .padStart(2, '0')}:${s.toString().padStart(2, '0')}`}</p>
       <div>{over ? "Время вышло" : ''}</div>
-      {/* <button onClick={() => setPaused(!paused)}>
-        {paused ? 'Resume' : 'Pause'}
-      </button>
-      <button onClick={() => reset()}>Restart</button> */}
     </div>
   );
 };

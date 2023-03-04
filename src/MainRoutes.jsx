@@ -1,10 +1,19 @@
+import { useRef, useState } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
+import MainReviewPage from "./components/MainReviewPage/MainReviewPage";
+import BookPage from "./pages/bookPage/BookPage";
 import FailurePage from "./pages/failurePage/FailurePage";
 import TestPage from "./pages/testPage/TestPage";
 import WinPage from "./pages/winPage/WinPage";
 
 const MainRoutes = () => {
+  const myRef = useRef(null);
+
+  const handleScrollClick = () => {
+    myRef.current.scrollIntoView({ behavior: "smooth", block: "center" });
+  };
   return (
     <BrowserRouter>
       <Switch>
@@ -17,10 +26,7 @@ const MainRoutes = () => {
         <Route exact path="/win">
           <WinPage />
         </Route>
-        <Route exact path="/test/:id">
-          <TestPage/>
-        </Route>      
-        </Switch>
+      </Switch>
     </BrowserRouter>
   );
 };

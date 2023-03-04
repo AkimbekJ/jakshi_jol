@@ -4,11 +4,12 @@
   height: 150px;
   align-items: center;
   background-color: #2d8456;
-  padding-left: 105px;
+  margin: 0 auto;
 }
 
 .logo {
   display: flex;
+  margin-left: 105px;
 }
 
 .logo:hover {
@@ -48,21 +49,46 @@
   background-repeat: no-repeat;
   background-size: 0% 2px;
   transition: background-size 0.3s;
+  
+}
+.scroll_to_book{
+  color: #fff;
+  text-decoration: none;
+
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background: none;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+  border: none;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  color: white;
+  gap: 88px;
+  
+  
 }
 
-.nav nav ul li:hover,
+
+.nav nav ul li:hover, 
 li:focus {
   background-size: 100% 2px;
   cursor: pointer;
 }
 
+.current nav ul li {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+}
+
 .instagram {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
   padding: 10px;
-  gap: 10px;
 
   width: 44px;
   height: 44px;
@@ -87,4 +113,17 @@ li:focus {
 
 .contacts:hover .number {
   display: inline;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 12px;
+}
+
+a {
+  color: white;
+  text-decoration-line: none;
 }
