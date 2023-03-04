@@ -2,12 +2,10 @@ import "./Header.css";
 import { Link } from "react-router-dom";
 import logo from "../../assets/logoaj.svg";
 import instagram_logo from "../../assets/Instagram - Original.svg";
-import { useRef } from "react";
 
 
 
-const Header = () => {
-
+const Header = (props) => {
   return (
     
     <div className="header">
@@ -22,8 +20,7 @@ const Header = () => {
               <Link to="/">Главная</Link>
             </li>
             <li>
-              <button   className="scroll_to_book">Книга</button>
-
+              <button className="scroll_to_book" onClick={props.props}> Книга</button>
             </li>
             <li>
               <Link to="/win">Тест</Link>
