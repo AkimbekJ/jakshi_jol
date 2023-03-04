@@ -1,16 +1,15 @@
-.footer {
+.header {
   display: flex;
   width: 1440px;
   height: 150px;
   align-items: center;
   background-color: #2d8456;
-  padding-left: 105px;
   margin: 0 auto;
-  color: white;
 }
 
 .logo {
   display: flex;
+  margin-left: 105px;
 }
 
 .logo:hover {
@@ -27,7 +26,7 @@
   margin-left: 14px;
 }
 
-.nav2 nav ul {
+.nav .navul {
   list-style: none;
   display: flex;
   font-family: "Nunito Sans";
@@ -38,10 +37,10 @@
   color: white;
   gap: 88px;
   margin-right: 90px;
-  margin-left: 537px;
+  margin-left: 379px;
 }
 
-.nav2 nav ul li {
+.nav nav ul li {
   color: #fff;
   text-decoration: none;
 
@@ -50,26 +49,59 @@
   background-repeat: no-repeat;
   background-size: 0% 2px;
   transition: background-size 0.3s;
+  
 }
 
-.nav2 nav ul li:hover,li:focus {
+
+.nav nav ul li:hover, 
+li:focus {
   background-size: 100% 2px;
   cursor: pointer;
 }
 
-.instagram {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  gap: 10px;
+.current nav ul li {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+}
 
+.instagram2 {
+  padding: 10px;
   width: 44px;
   height: 44px;
   border-radius: 100px;
 }
 
+.contacts {
+  max-width: 107px;
+}
+
 .instagram:hover {
   cursor: pointer;
+}
+
+.contacts .number {
+  display: none;
+}
+
+.contacts:hover .contact {
+  display: none;
+}
+
+.contacts:hover .number {
+  display: inline;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 12px;
+}
+
+a {
+  color: white;
+  text-decoration-line: none;
 }

@@ -1,5 +1,6 @@
 import { useRef, useState } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import MainReviewPage from "./components/MainReviewPage/MainReviewPage";
 import BookPage from "./pages/bookPage/BookPage";
@@ -21,7 +22,7 @@ const MainRoutes = () => {
               <Header props={handleScrollClick}/>
             <MainReviewPage />
             <BookPage myRef={myRef} />
-
+            <Footer />
           </Route>
           <Route exact path="/failure">
             <FailurePage />
