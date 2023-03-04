@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Header from "./components/Header/Header";
 import FailurePage from "./pages/failurePage/FailurePage";
+import TestPage from "./pages/testPage/TestPage";
 import WinPage from "./pages/winPage/WinPage";
 
 const MainRoutes = () => {
@@ -16,7 +17,10 @@ const MainRoutes = () => {
         <Route exact path="/win">
           <WinPage />
         </Route>
-      </Switch>
+        <Route exact path="/test/:id">
+          <TestPage/>
+        </Route>      
+        </Switch>
     </BrowserRouter>
   );
 };

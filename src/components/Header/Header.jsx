@@ -1,6 +1,8 @@
 import "./Header.css";
 import logo from "../../assets/logoaj.svg";
 import instagram_logo from "../../assets/Instagram - Original.svg"
+import { Button } from "@mui/material";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -14,7 +16,14 @@ const Header = () => {
           <ul>
             <li>Главная</li>
             <li>Книга</li>
-            <li>Тест</li>
+            <li>
+            {/* <Button>
+                <Link to='/test/1'>
+                  Тест
+                </Link>
+              </Button> */}
+              Тест
+              </li>
             <div className="contacts">
               <li className="contact">Контакты</li>
               <li className="number">0705265747</li>
