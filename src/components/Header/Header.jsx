@@ -1,9 +1,6 @@
 import "./Header.css";
-import { Link } from "react-router-dom";
 import logo from "../../assets/logoaj.svg";
 import instagram_logo from "../../assets/Instagram - Original.svg";
-
-
 
 const Header = (props) => {
   return (

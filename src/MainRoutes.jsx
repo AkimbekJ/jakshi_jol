@@ -5,6 +5,7 @@ import Header from "./components/Header/Header";
 import MainReviewPage from "./components/MainReviewPage/MainReviewPage";
 import BookPage from "./pages/bookPage/BookPage";
 import FailurePage from "./pages/failurePage/FailurePage";
+import TestPage from "./pages/testPage/TestPage";
 import WinPage from "./pages/winPage/WinPage";
 
 const MainRoutes = (props) => {
@@ -35,7 +36,6 @@ const MainRoutes = (props) => {
         </Switch>
       </BrowserRouter>
     </>
-
   );
 };
 
