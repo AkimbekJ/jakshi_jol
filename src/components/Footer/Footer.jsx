@@ -12,7 +12,6 @@ const Footer = () => {
       <div className="nav2">
         <nav>
           <ul>
-            <li>Книга</li>
             <div className="contacts">
               <li className="contact">Контакты</li>
               <li className="number">0705267747</li>
