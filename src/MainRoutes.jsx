@@ -8,7 +8,7 @@ import FailurePage from "./pages/failurePage/FailurePage";
 import TestPage from "./pages/testPage/TestPage";
 import WinPage from "./pages/winPage/WinPage";
 
-const MainRoutes = () => {
+const MainRoutes = (props) => {
   const myRef = useRef(null);
 
   const handleScrollClick = () => {
@@ -22,7 +22,7 @@ const MainRoutes = () => {
 
               <Header props={handleScrollClick}/>
             <MainReviewPage />
-            <BookPage myRef={myRef} />
+            <BookPage ref={myRef} />
             <Footer />
           </Route>
           <Route exact path="/failure">

@@ -1,10 +1,10 @@
 import axios from "axios"
-import { useEffect, useState } from "react"
+import { forwardRef, useEffect, useState } from "react"
 import BlockArticle from "../../components/BlockArticle/BlockArticle"
 import BlockBook from "../../components/BlockBook/BlockBook"
 import './Bookpage.css'
 
-const BookPage = ({myRef}) => {
+const BookPage = forwardRef(function BookPage(props, ref)  {
     const [news, setNews] = useState([])
     const getArticls = async () => {
         const { data } = await axios("https://jakshyjol.herokuapp.com/news/")
@@ -18,12 +18,12 @@ const BookPage = ({myRef}) => {
         <div >
             <div className="bookPageCss">
 
-                <BlockBook   myRef={myRef} />
+                <BlockBook myRef={ref} />
                 <BlockArticle articls={news} />
             </div>
 
         </div>
 
     )
-}
+})
 export default BookPage
