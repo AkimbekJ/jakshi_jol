@@ -1,9 +1,8 @@
 import "./Header.css";
 import logo from "../../assets/logoaj.svg";
-import instagram_logo from "../../assets/Instagram - Original.svg"
+import instagram_logo from "../../assets/Instagram - Original.svg";
 
-const Header = () => {
-
+const Header = (props) => {
   return (
     
     <div className="header">
@@ -14,9 +13,15 @@ const Header = () => {
       <div className="nav">
         <nav>
           <ul>
-            <li>Главная</li>
-            <li>Книга</li>
-            <li>Тест</li>
+            <li>
+              <Link to="/">Главная</Link>
+            </li>
+            <li>
+              <button className="scroll_to_book" onClick={props.props}> Книга</button>
+            </li>
+            <li>
+              <Link to="/win">Тест</Link>
+            </li>
             <div className="contacts">
               <li className="contact">Контакты</li>
               <li className="number">0705265747</li>

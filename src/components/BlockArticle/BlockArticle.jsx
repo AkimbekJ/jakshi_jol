@@ -7,7 +7,6 @@ const BlockArticle = (props) => {
         <div>
  <div className="blcokArticle">
             <h2 className="h2Article">Последние изменения в законодательстве ПДД КР</h2>
-            <div className="blockGreenTwo"> </div>
 
                 {
                     props.articls.map(news => {

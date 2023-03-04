@@ -15,19 +15,27 @@ const MainRoutes = () => {
     myRef.current.scrollIntoView({ behavior: "smooth", block: "center" });
   };
   return (
-    <BrowserRouter>
-      <Switch>
-        <Route exact path="/">
-          <Header />
-        </Route>
-        <Route exact path="/failure">
-          <FailurePage />
-        </Route>
-        <Route exact path="/win">
-          <WinPage />
-        </Route>
-      </Switch>
-    </BrowserRouter>
+    <>
+      <BrowserRouter>
+        <Switch>
+          <Route exact path="/">
+
+              <Header props={handleScrollClick}/>
+            <MainReviewPage />
+            <BookPage myRef={myRef} />
+            <Footer />
+          </Route>
+          <Route exact path="/failure">
+            <FailurePage />
+          </Route>
+          <Route exact path="/win">
+            <WinPage />
+
+          </Route>
+
+        </Switch>
+      </BrowserRouter>
+    </>
   );
 };
 
