@@ -49,8 +49,29 @@
   background-repeat: no-repeat;
   background-size: 0% 2px;
   transition: background-size 0.3s;
+  
 }
+.scroll_to_book{
+  color: #fff;
+  text-decoration: none;
 
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background: none;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+  border: none;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  color: white;
+  gap: 88px;
+  
+  
+}
 
 
 .nav nav ul li:hover, 
