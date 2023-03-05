@@ -8,21 +8,19 @@ import FailurePage from "./pages/failurePage/FailurePage";
 import TestPage from "./pages/testPage/TestPage";
 import WinPage from "./pages/winPage/WinPage";
 
-const MainRoutes = (props) => {
-  const myRef = useRef(null);
+const MainRoutes = () => {
+  const ref = useRef();
 
   const handleScrollClick = () => {
-    myRef.current.scrollIntoView({ behavior: "smooth", block: "center" });
+    ref.current.scrollIntoView({ behavior: "smooth", block: "center" });
   };
   return (
-    <>
       <BrowserRouter>
         <Switch>
           <Route exact path="/">
-
-              <Header props={handleScrollClick}/>
+            <Header props={handleScrollClick} />
             <MainReviewPage />
-            <BookPage ref={myRef} />
+            <BookPage ref={ref} />
             <Footer />
           </Route>
           <Route exact path="/failure">
@@ -30,12 +28,12 @@ const MainRoutes = (props) => {
           </Route>
           <Route exact path="/win">
             <WinPage />
-
           </Route>
-
+          <Route exact path="/test/1">
+            <TestPage />
+          </Route>
         </Switch>
       </BrowserRouter>
-    </>
   );
 };
 

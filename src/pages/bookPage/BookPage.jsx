@@ -4,7 +4,7 @@ import BlockArticle from "../../components/BlockArticle/BlockArticle"
 import BlockBook from "../../components/BlockBook/BlockBook"
 import './Bookpage.css'
 
-const BookPage = forwardRef(function BookPage(props, ref)  {
+const BookPage = forwardRef((props, ref) =>  {
     const [news, setNews] = useState([])
     const getArticls = async () => {
         const { data } = await axios("https://jakshyjol.herokuapp.com/news/")
@@ -18,7 +18,7 @@ const BookPage = forwardRef(function BookPage(props, ref)  {
         <div >
             <div className="bookPageCss">
 
-                <BlockBook myRef={ref} />
+                <BlockBook ref={ref} />
                 <BlockArticle articls={news} />
             </div>
 

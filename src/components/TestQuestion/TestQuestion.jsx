@@ -57,8 +57,8 @@ const TestQuestion = () => {
 
     
     return (
-        <div>
-        <div className='container'>
+        <div className='contt'>
+        <div className='container2'>
             <p className='discount'>
                 Получите 10% скидку, ответив правильно на 18 и более вопросов
             </p>
@@ -96,12 +96,12 @@ const TestQuestion = () => {
             ): null}
             <div className='btn-div'>
                 {showAnswer ? question.id === 20 ? 
-                    <Button onClick={() => setModal(true)}variant="contained" color='success'>Завершить</Button>
-                : <Button onClick={() => nextQuestion()} variant="contained" color='success'>
+                    <Button className='button' onClick={() => setModal(true)}variant="contained" color='success'>Завершить</Button>
+                : <Button className='button' onClick={() => nextQuestion()} variant="contained" color='success'>
                     Продолжить
                     </Button>
                 :
-                (<Button onClick={() => handleClick()} variant="contained" color='success'>Проверить</Button>)
+                (<Button className='button' onClick={() => handleClick()} variant="contained" color='success'>Проверить</Button>)
                 }
                 
             </div>
@@ -111,7 +111,7 @@ const TestQuestion = () => {
             <div className="EndTimePage-container">
                 <p>Время теста вышло. Нажмите на “завершить” , чтобы узнать результаты</p>
                 <p>Вы набрали {correctAnswers} баллов из 20</p>
-                <Button variant="contained" color='success'>Завершить</Button>
+                <Button className='button' variant="contained" color='success'>Завершить</Button>
 
             </div>
         </div>
@@ -120,7 +120,7 @@ const TestQuestion = () => {
         <div className="modal">
             <div className="modal-container">
                 <p>Вы набрали  {correctAnswers} баллов из 20</p>
-                <Button variant="contained" color='success'>Завершить</Button>
+                <Button className='button' variant="contained" color='success'>Завершить</Button>
             </div>
         </div>
         : null
