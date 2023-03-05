@@ -19,7 +19,7 @@ const HeaderWithoutBook = () => {
               <Link to="/">Главная</Link>
             </li>
             <li>
-              <Link to="/win">Тест</Link>
+              <Link to="/test">Тест</Link>
             </li>
             <div className="contacts">
               <li className="contact">Контакты</li>

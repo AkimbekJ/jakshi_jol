@@ -1,6 +1,7 @@
 import "./Header.css";
 import logo from "../../assets/logoaj.svg";
 import instagram_logo from "../../assets/Instagram - Original.svg";
+import { Link } from "react-router-dom";
 
 const Header = (props) => {
   return (
@@ -20,7 +21,7 @@ const Header = (props) => {
               <button className="scroll_to_book" onClick={props.props}> Книга</button>
             </li>
             <li>
-              <Link to="/win">Тест</Link>
+              <Link to="/test/1">Тест</Link>
             </li>
             <div className="contacts">
               <li className="contact">Контакты</li>
