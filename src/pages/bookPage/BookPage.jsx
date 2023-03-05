@@ -17,7 +17,6 @@ const BookPage = forwardRef((props, ref) =>  {
     return (
         <div >
             <div className="bookPageCss">
-
                 <BlockBook ref={ref} />
                 <BlockArticle articls={news} />
             </div>
