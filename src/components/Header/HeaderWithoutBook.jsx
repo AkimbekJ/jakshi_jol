@@ -1,9 +1,10 @@
-import "./Header.css";
+import { Link } from "react-router-dom";
 import logo from "../../assets/logoaj.svg";
 import instagram_logo from "../../assets/Instagram - Original.svg";
-import { Link } from "react-router-dom";
+import "./HeaderWithoutBook.css"
 
-const Header = (props) => {
+const HeaderWithoutBook = () => {
+
   return (
     
     <div className="header">
@@ -13,15 +14,12 @@ const Header = (props) => {
       </div>
       <div className="nav">
         <nav>
-          <ul>
+          <ul className="navul">
             <li>
               <Link to="/">Главная</Link>
             </li>
             <li>
-              <button className="scroll_to_book" onClick={props.props}> Книга</button>
-            </li>
-            <li>
-              <Link to="/test/1">Тест</Link>
+              <Link to="/test">Тест</Link>
             </li>
             <div className="contacts">
               <li className="contact">Контакты</li>
@@ -30,7 +28,7 @@ const Header = (props) => {
           </ul>
         </nav>
       </div>
-      <div className="instagram">
+      <div className="instagram2">
         <img src={instagram_logo} alt="" />
       </div>
     </div>
@@ -38,4 +36,4 @@ const Header = (props) => {
   );
 };
 
-export default Header;
+export default HeaderWithoutBook

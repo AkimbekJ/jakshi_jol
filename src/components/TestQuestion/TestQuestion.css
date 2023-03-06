@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap");
+
+body {
+  margin: 0 auto;
+}
+.contt{
+  width: 1440px;
+    margin:0 auto;
+}
+.container2 {
+  width: 1237px;
+  height: 100%;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.questionImg {
+  width: 80%;
+}
+
+.btn-div {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.button {
+  width: 610px;
+  font-size: 50px;
+  font-weight: 400;
+  background: #2d8456;
+  color: #ffff;
+}
+
+.discount {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-size: 32px;
+  line-height: 55px;
+  color: #000000;
+  margin: 5px auto;
+  display: flex;
+  justify-content: start;
+}
+
+#demo-radio-buttons-group-label {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  color: #000000;
+}
+
+.answer span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.modal {
+  width: 100vw;
+  height: 100vh;
+  z-index: 5;
+  backdrop-filter: blur(5px);
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-container {
+  width: 30%;
+  height: 60%;
+  background: #656060;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.modal-container p {
+  font-family: "Nunito Sans";
+  font-size: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.EndTimePage {
+  width: 100vw;
+  height: 100vh;
+  z-index: 5;
+  backdrop-filter: blur(5px);
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.EndTimePage-container {
+  width: 30%;
+  height: 60%;
+  background: #656060;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.EndTimePage-container p {
+  font-family: "Nunito Sans";
+  font-size: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+.timer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+}
+.timer img {
+  width: 40px;
+  height: 40px;
+}
+.timer-total {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+.timer p {
+  font-family: "Nunito Sans";
+  font-size: 30px;
+  line-height: 41px;
+  text-align: center;
+  color: #2d8456;
+}
+
+.points {
+  font-family: "Nunito Sans";
+  font-size: 30px;
+  text-align: center;
+  color: #151515;
+  margin: 0 15px;
+}
+
+#demo-radio-buttons-group-label {
+  font-family: "Nunito Sans";
+  font-weight: 400;
+  font-size: 30px;
+}

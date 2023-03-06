@@ -1,10 +1,10 @@
 import { Dialog } from '@headlessui/react'
-import { useState } from 'react'
+import { forwardRef, useState } from 'react'
 import image from '../../assets/book.png'
 import './BlockBook.css'
 import distance from '../../assets/distance.png'
 import call from '../../assets/call.png'
-const BlockBook = () => {
+const BlockBook = forwardRef(function BlockBook(props, ref) {
     const [isOpen, setIsOpen] = useState(false)
     return (
         <div className="blockBook">
@@ -36,12 +36,12 @@ const BlockBook = () => {
                     </div>
                 </Dialog>
             </div>
-            <div className="bookImage">
+            <div ref={ref} className="bookImage">
                 <img src={image} alt="" />
             </div>
-            <div className='blockGreen'></div>
+            <div  className='blockGreen'></div>
 
         </div>
     )
-}
+})
 export default BlockBook

@@ -26,7 +26,7 @@
   margin-left: 14px;
 }
 
-.nav nav ul {
+.nav .navul {
   list-style: none;
   display: flex;
   font-family: "Nunito Sans";
@@ -37,7 +37,7 @@
   color: white;
   gap: 88px;
   margin-right: 90px;
-  margin-left: 223px;
+  margin-left: 379px;
 }
 
 .nav nav ul li {
@@ -49,27 +49,6 @@
   background-repeat: no-repeat;
   background-size: 0% 2px;
   transition: background-size 0.3s;
-  
-}
-.scroll_to_book{
-  color: #fff;
-  text-decoration: none;
-
-  background-image: linear-gradient(currentColor, currentColor);
-  background-position: 0% 100%;
-  background-repeat: no-repeat;
-  background: none;
-  background-size: 0% 2px;
-  transition: background-size 0.3s;
-  border: none;
-  font-family: "Nunito Sans";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 24px;
-  line-height: 33px;
-  color: white;
-  gap: 88px;
-  padding: 0px;
   
 }
 
@@ -87,9 +66,8 @@ li:focus {
   background-size: 0% 2px;
 }
 
-.instagram {
+.instagram2 {
   padding: 10px;
-
   width: 44px;
   height: 44px;
   border-radius: 100px;

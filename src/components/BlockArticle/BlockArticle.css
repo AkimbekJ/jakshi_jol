@@ -16,7 +16,10 @@
 }
 
 .blcokArticle {
-    margin-left: 100px;
+  width: 1440px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 
@@ -60,20 +63,18 @@
 
     width: 1124px;
     height: 193px;
+    text-align: center;
     margin-top: 95px;
 }
 
 .blockArticleTwo h3 {
-    width: 1124px;
     height: 55px;
-
     font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 40px;
     line-height: 55px;
     margin-top: 25px;
-
     color: #151515;
 }
 
@@ -123,5 +124,6 @@
     line-height: 36px;
     color: #FFFFFF;
     margin-top: 30px;
+    margin-bottom: 85px;
     text-decoration: none;
 }

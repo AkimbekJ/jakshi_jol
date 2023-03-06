@@ -1,0 +1,13 @@
+/* .timer{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+} */
+
+.timer p{
+    font-family: 'Nunito Sans';
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    color: #2D8456;
+}
